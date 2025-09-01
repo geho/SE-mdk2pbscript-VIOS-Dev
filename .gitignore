@@ -52,3 +52,11 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+bin/
+obj/
+dist/
+**/*.mdk.local.ini
+.vs/
+.idea/
+
