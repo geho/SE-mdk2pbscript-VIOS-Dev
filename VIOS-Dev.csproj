@@ -23,4 +23,7 @@
     <AdditionalFiles Include="Instructions.readme" />
     <AdditionalFiles Include="thumb.png" />
   </ItemGroup>
+  <Import Project="../../Mixins/VIOS/VIOS.projitems"
+          Label="Shared"
+          Condition="Exists('../../Mixins/VIOS/VIOS.projitems')" />
 </Project>
